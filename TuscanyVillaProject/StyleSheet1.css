@@ -1,0 +1,99 @@
+﻿/*HEADER*/
+.page-header{
+    background-color:#C9CDCA;
+    margin-top:0px;
+    padding-top:0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    
+}
+#design{
+    margin:0px;
+    font-family: 'Pacifico', cursive;
+    padding-bottom:50px;
+    text-align:center;
+}
+#homepage{
+    margin:0px;
+    padding-top:50px;
+    text-align:center;
+}
+
+/*NAV BAR*/
+#navvy{
+    margin-top:0px;
+}
+#navCont{
+    padding-right:0px;
+}
+#meat{
+    margin-left:30%;
+}
+#properties{
+    text-align:right;
+    background-color:#AAABAB;
+    color:white;
+}
+#windows{
+    background-color:#837B7C;
+    color:white;
+}
+
+
+
+/*GRID*/
+
+.squares{
+    border:solid 1px;
+    height:200px;
+    background-size: cover;
+    background-repeat: no-repeat; /* when we resize the image, this provents a repeating image to fill the container*/
+    background-position:center;
+}
+.topSquares{
+    border:solid 1px;
+    height:350px;
+    background-size: auto 100%; /* Resizes images to the size of their container*/
+    background-position:center;
+
+}
+#txtPos{
+    margin-left:25%;
+    margin-top:25%;
+}
+
+
+/*IMAGES*/
+#pic1-1 {
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+}
+#pic1-2 {
+    background-image: url('Images/Versilia.jpg');
+}
+#pic2-2 {
+    background-image: url('Images/314-348x348.jpg');
+}
+#pic2-3 {
+    background-image: url('Images/3b-348x348.jpg');
+}
+#pic2-4 {
+    background-image: url('Images/42-348x348.jpg');
+}
+#pic3-1 {
+    background: url('Images/Tartufo_020_In_Evening_Sun.jpg');
+    
+}
+#pic3-3 {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+}
+#pic4-2 {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+}
+h4 .rows{
+    margin-top:10%;
+}
+.page-footer{ 
+
+    padding-bottom:20px;
+    margin:auto;
+}
