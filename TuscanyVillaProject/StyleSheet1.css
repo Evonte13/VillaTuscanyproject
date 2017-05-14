@@ -1,99 +1,400 @@
-﻿/*HEADER*/
-.page-header{
-    background-color:#C9CDCA;
-    margin-top:0px;
-    padding-top:0px;
-    margin-bottom:0px;
-    padding-bottom:0px;
-    
-}
-#design{
-    margin:0px;
-    font-family: 'Pacifico', cursive;
-    padding-bottom:50px;
-    text-align:center;
-}
-#homepage{
-    margin:0px;
-    padding-top:50px;
-    text-align:center;
-}
-
-/*NAV BAR*/
-#navvy{
-    margin-top:0px;
-}
-#navCont{
-    padding-right:0px;
-}
-#meat{
-    margin-left:30%;
-}
-#properties{
-    text-align:right;
-    background-color:#AAABAB;
-    color:white;
-}
-#windows{
-    background-color:#837B7C;
-    color:white;
-}
+﻿
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe|Francois+One|Open+Sans');
 
 
 
-/*GRID*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
-.squares{
-    border:solid 1px;
-    height:200px;
+.jumbotron {
+    color: #666666;
+    text-transform: uppercase;
+    font-family: 'Francois One', sans-serif;
+}
+
+    .jumbotron p {
+        font-family: 'Mr Dafoe', cursive;
+        font-size: 42px;
+        text-transform: none;
+    }
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-btn {
+    margin: 0px -15px 0px 0px;
+    border-radius: 0px;
+    padding: 14px 28px;
+    text-transform: uppercase;
+}
+/* First row - Features styles */
+.featureCol {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.featureBG {
+    margin: 0px;
+    width: auto;
+    height: 390px;
+    background-image: url(/images/tuscany-villas-sant-anna.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat; /* when we resize the image, this provents a repeating image to fill the container*/
-    background-position:center;
-}
-.topSquares{
-    border:solid 1px;
-    height:350px;
-    background-size: auto 100%; /* Resizes images to the size of their container*/
-    background-position:center;
-
-}
-#txtPos{
-    margin-left:25%;
-    margin-top:25%;
+    border: 1px solid #cccccc;
+    background-position: right;
 }
 
+.featureTextBox {
+    text-align: center;
+    background-color: rgba(85,85,85,0.7);
+    padding: 4px 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 160px 140px 160px 140px;
+    min-width: 200px;
+}
 
-/*IMAGES*/
-#pic1-1 {
-    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+.homeBox a:link {
+    color: #ffffff;
 }
-#pic1-2 {
-    background-image: url('Images/Versilia.jpg');
-}
-#pic2-2 {
-    background-image: url('Images/314-348x348.jpg');
-}
-#pic2-3 {
-    background-image: url('Images/3b-348x348.jpg');
-}
-#pic2-4 {
-    background-image: url('Images/42-348x348.jpg');
-}
-#pic3-1 {
-    background: url('Images/Tartufo_020_In_Evening_Sun.jpg');
-    
-}
-#pic3-3 {
-    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
-}
-#pic4-2 {
-    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
-}
-h4 .rows{
-    margin-top:10%;
-}
-.page-footer{ 
 
-    padding-bottom:20px;
-    margin:auto;
+.homeBox a:visited {
+    color: #ffffff;
 }
+
+.homeBox a:hover {
+    color: #444;
+}
+
+/*Map panel styles*/
+.featureMapBG {
+    margin: 0px;
+    width: auto;
+    height: 390px;
+    background-image: url(/images/Versilia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #cccccc;
+    background-position: right;
+}
+
+.featureMapTextBox {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 4px 8px;
+    color: #666;
+    margin: 180px 30px 20px 30px;
+}
+
+    .featureMapTextBox a:link {
+        text-decoration: none;
+        color: #444;
+    }
+
+
+
+
+/*Sub content blocks styling*/
+.subClearPad {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.subColPoint {
+    padding: 40px 40px 40px 40px;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #4eb2a0;
+    background-color: #ffffff;
+    height: 250px;
+}
+
+    .subColPoint a:link {
+        color: #4eb2a0;
+    }
+
+    .subColPoint a:visited {
+        color: #4eb2a0;
+    }
+
+    .subColPoint a:hover {
+        color: #444;
+    }
+
+.subColTextBox {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(85,85,85,0.7);
+    padding: 4px 8px;
+    color: #ffffff;
+    margin: 60px 50px 20px 50px;
+}
+
+.subCol1 {
+    margin: 0px;
+    width: auto;
+    height: 250px;
+    background-image: url(/images/Villa-Rucellai-Toscani-2750-2-348x348.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: 1px solid #cccccc;
+}
+
+
+.subCol2 {
+    margin: 0px;
+    width: auto;
+    height: 250px;
+    background-image: url(/images/Villa-Rucellai-Toscani-2812-2-348x348.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: 1px solid #cccccc;
+}
+
+.subCol3 {
+    margin: 0px;
+    width: auto;
+    height: 250px;
+    background-image: url(/images/Villa-Vanna-231-348x348.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: 1px solid #cccccc;
+}
+/*Row 3 with info and cost boxes*/
+.subCol4 {
+    margin: 0px;
+    width: auto;
+    height: 250px;
+    background-image: url(/images/42-348x348.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #cccccc;
+    background-position: bottom;
+    padding-top: 164px;
+}
+
+.subColIconBox {
+    width: 220px;
+    height: 64px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(85,85,85,0.7);
+    padding: 1px 10px 4px 10px;
+    color: #ffffff;
+}
+
+.priceCube {
+    float: left;
+    background-color: #4eb2a0;
+    height: 64px;
+    width: 64px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 14px 12px 0px 12px;
+}
+
+.starRate {
+    height: 30px;
+    width: 50px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    float: left;
+    padding: 5px;
+    display: inline-block;
+    background-color: #4eb2a0;
+    color: #ffffff;
+    margin: auto;
+}
+
+.searchBox {
+    height: 30px;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    float: right;
+    padding: 5px;
+    display: inline-block;
+    background-color: #4eb2a0;
+    color: #ffffff;
+    margin: auto;
+}
+
+.homeBox {
+    height: 30px;
+    width: 90px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    float: right;
+    padding: 2px 0px 0px 0px;
+    display: inline-block;
+    background-color: #4eb2a0;
+    color: #ffffff;
+    margin: auto;
+}
+
+.infoWrap {
+    /*background-color: burlywood;*/
+    width: 284px;
+    height: 64px;
+    margin: auto;
+}
+
+/*Text only box and button styles*/
+.subColCallOut {
+    padding: 14px 40px 40px 40px;
+    margin: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #666666;
+    background-color: #ffffff;
+    height: 250px;
+    border: 1px solid #cccccc;
+}
+
+    .subColCallOut p {
+        text-transform: none;
+    }
+
+    .subColCallOut .btn-default {
+        border-color: #4eb2a0;
+        color: #4eb2a0;
+    }
+
+        .subColCallOut .btn-default:hover {
+            background-color: #d1fbf4;
+        }
+
+.subCol5 {
+    margin: 0px;
+    width: auto;
+    height: 250px;
+    background-image: url(/images/3b-348x348.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #cccccc;
+    background-position: bottom;
+    padding-top: 164px;
+}
+
+/*Ratings and Review styles*/
+.subCol6 {
+    margin: 0px;
+    width: auto;
+    height: 250px;
+    background-image: url(/images/314-348x348.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #cccccc;
+    background-position: bottom;
+    padding-top: 164px;
+}
+
+.subColRatings {
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: .2em;
+    color: #ffffff;
+    background-color: #4eb2a0;
+    height: 250px;
+    padding: 10px;
+}
+
+    .subColRatings .btn-default {
+        border-color: #255c52;
+        background-color: #4eb2a0;
+    }
+
+        .subColRatings .btn-default:hover {
+            background-color: #48a191;
+        }
+
+    .subColRatings h1 {
+        font-size: 4.0em;
+    }
+
+.frameWrap {
+    border: solid 1px #255c52;
+    width: auto;
+    height: 230px;
+    margin: 0px;
+    padding: 30px;
+}
+
+/*Footer and social styles*/
+footer {
+    background-color: #c7c7c7;
+    color: #444;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.footerSocial {
+    float: right;
+    margin: 10px 0px 0px 40px;
+}
+
+    .footerSocial a:link {
+        color: #444;
+        text-decoration: none;
+    }
+
+    .footerSocial a:visited {
+        color: #444;
+        text-decoration: none;
+    }
+
+    .footerSocial a:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+
+.footerInfo {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin: 10px 0px 0px 40px;
+}
+
+    .footerInfo a:link {
+        color: #444;
+        text-decoration: none;
+    }
+
+    .footerInfo a:visited {
+        color: #444;
+        text-decoration: none;
+    }
+
+    .footerInfo a:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }

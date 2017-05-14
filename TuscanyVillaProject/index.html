@@ -3,126 +3,233 @@
 <head>
     <title>Tuscany Villa</title>
     <meta charset="utf-8" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
+    
     <link href="StyleSheet1.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
 </head>
 <body>
-    <!--HEADER-->
-    <div class="page-header">
-        <h1 id="homepage">Homepage</h1>
-        <h2 id="design">design</h2>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Tuscany Villa</h1>
+            <p>Brave, Bold, Fearless</p>
+        </div>
     </div>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-default" id="navvy">
-        <div class="container" id="navCont">
-            <!-- Brand and toggle get grouped for better mobile display -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#Windows" id="windows">Windows on Tuscany</a>
+                <a class="navbar-brand" href="#"><img alt="Windows on Tuscany" height="50" src="/images/wot_logo.png"></a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav" id="meat">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
 
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Cities">Cities</a></li>
-                    <li><a href="#Contacts">Contacts</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Cities</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <div class="nav navbar-nav navbar-right">
+                    <button class="btn btn-info navbar-btn">Properties</button>
 
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <a class="navbar-brand" href="#Properties" id="properties">Properties</a>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
+                </div>
+
+            </div>
+        </div>
     </nav>
-    <!--Contents-->
-    <div class="container">
-        <div class="row rowTheFirst">
-            <div class="col-xs-12 col-sm-12  col-md-4 col-lg-9 topSquares" id="pic1-1">
+    <div class="container-fluid">
+        <!--First row with big image and map-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9 featureCol">
+                <div class="featureBG">
+                    <div class="featureTextBox text-center">
+                        <h3>Feel like Home Away From Home</h3>
+                        <p>Find your exclusive tuscany villa for the holidays</p>
+                        <div class="homeBox text-center"><a href="#"><span class="fa fa-long-arrow-right fa-2x"></span></a></div>
+                    </div>
+                </div>
 
-                <h4 id="words1-1-1">FEEL LIKE HOME AWAY FROM HOME</h4>
-                <h5 id="words1-1-2">FIND YOUR EXCLUSIVE TUSCANY VILLA FOR HOLIDAYS</h5>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 featureCol">
+                <div class="featureMapBG">
+                    <div class="featureMapTextBox">
+                        <h4>Find Your Tuscany Villa</h4>
+                        <a href="#">
+                            <p>Explore the map</p>
+                            <div class="searchBox text-center"><p><span class="glyphicon glyphicon-search"></span></p></div>
+                        </a>
 
-            </div>
-
-            <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 topSquares" id="pic1-2">
-                <h4>FIND YOUR TUSCANY VILLA</h4>
-                <h5>CLICK TO EXPLORE THE MAP</h5>
-            </div>
-        </div>
-       </div>
-        <div class="container">
-            <div class="row rowTheSecond">
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic2-1">
-                    <h5 id="txtPos">SOME ACCOMMODATION IDEAS FOR A PERFECT STAY</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic2-2">
-                    <h5 id="txtPos">WEDDINGS</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic2-3">
-                    <h5 id="txtPos">FRIENDS</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic2-4">
-                    <h5 id="txtPos">FAMILY</h5>
-                </div>
-             </div>
-            </div>
-        <div class="container">
-            <div class="row rowTheThird">
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic3-1">
-                    <h5 id="txtPos">VILLA POALLA</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic3-2">
-                    <h5 id="txtPos">WHY BOOK A VILLA</h5>
-                </div>
-                <div class="ccol-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic3-3">
-                    <h5 id="txtPos">LA VILLA</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic3-4">
-                    <h5 id="txtPos">WHY US</h5>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic4-1">
-                    <h5 id="txtPos">SPEAK WITH OUR EXPERTS</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic4-2">
-                    <h5 id="txtPos">VILLA DE GIGLIA</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic4-3">
-                    <h5 id="txtPos">OUR CLIENTS TRUST US</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12  col-md-4 col-lg-3 squares" id="pic4-4">
-                    <h5><img src="Images/box_partners.png" /></h5>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <!--Second Row-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
 
+                <div class="subColPoint">
+                    <h3>Some Accommodation Ideas For A Perfect Stay</h3>
+                    <p>Your Dreams, Our Job</p>
+                    <a href="#">
+                        <p class="fa fa-long-arrow-right fa-3x"></p>
+                    </a>
 
-    <div class="page-footer">
-        <footer>
-            
-            <p>
-                Contact information: tuscany@hotmail.com
-            </p>
-        </footer>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subCol1">
+                    <div class="subColTextBox">
+                        <h3>Weddings</h3>
+                        <p>25 accommodations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subCol2">
+                    <div class="subColTextBox">
+                        <h3>Friends</h3>
+                        <p>100 accommodations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subCol3">
+                    <div class="subColTextBox">
+                        <h3>Family</h3>
+                        <p>75 accommodations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Third Row-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subCol4">
+                    <div class="infoWrap">
+
+                        <div class="subColIconBox">
+                            <div class="starRate text-center"><p><span class="glyphicon glyphicon-star"></span> 5/5</p></div>
+                            <h4>Villa Paola</h4>
+                            <img src="images/people-silhouettes.png" />12&nbsp;  <img src="images/hospital-bed.png" /> 6&nbsp;<img src="images/shower.png" />4
+                        </div>
+                        <div class="priceCube"><p>$150 / Day</p></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subColCallOut text-center">
+                    <h3>Why Book A Villa</h3>
+                    <p>We offer clients an exclusive portfolio of private villas located in some of the most charming corners of the Italian countryside and coastline.</p>
+                    <button type="button" class="btn btn-default">Learn More</button>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subCol5">
+                    <div class="infoWrap">
+                        <div class="subColIconBox">
+                            <div class="starRate text-center"><p><span class="glyphicon glyphicon-star"></span> 4/5</p></div>
+                            <h4> La Villa</h4>
+                            <img src="images/people-silhouettes.png" />14&nbsp;  <img src="images/hospital-bed.png" /> 10&nbsp;<img src="images/shower.png" />6
+                        </div>
+                        <div class="priceCube"><p>$220 / Day</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subColCallOut text-center">
+                    <h3>Why us</h3>
+                    <p>Windows on Tuscany is a brand founded by Leonardo Ferragamo in 1986 specializing in property management and in short and long term rentals of prestigious apartments in Tuscany.</p>
+                    <button type="button" class="btn btn-default">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Fourth Row-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subColCallOut text-center">
+                    <h3>Speak with our experts</h3>
+                    <p>Our highly qualified personnel make sure each client is immediately catered to and the result is a dynamic group of young professionals dedicated to finding solutions and providing top quality.</p>
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subCol6">
+                    <div class="infoWrap">
+                        <div class="subColIconBox">
+                            <div class="starRate text-center"><p><span class="glyphicon glyphicon-star"></span> 3/5</p></div>
+                            <h4> Villa Dei Gigli</h4>
+                            <img src="images/people-silhouettes.png" />14&nbsp;  <img src="images/hospital-bed.png" /> 10&nbsp;<img src="images/shower.png" />6
+                        </div>
+                        <div class="priceCube"><p>$150 / Day</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subColRatings text-center">
+
+                    <div class="frameWrap">
+                        <p>Our Clients Trust Us</p>
+                        <h1>248</h1>
+                        <p>Guest Reviews</p>
+                        <h2>4.5 / 5.0</h2>
+                        <button type="button" class="btn btn-default">Read All Reviews</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 subClearPad">
+                <div class="subColCallOut text-center">
+                    <h5>Seen On</h5>
+                    <img src="images/box_partners.png" />
+                </div>
+            </div>
+        </div>
     </div>
+    <!--Footer-->
+    <footer class="container-fluid">
+        <div class="footerInfo">
+            <p>
+                All contents &copy; 2017-2018 Windows on Tuscany properties.
+              
+                <a href="#">info@windowsontuscany.com</a>
+            </p>
+        </div>
+
+        <div class="footerSocial">
+            <ul class="list-inline">
+                <li><a class="fa fa-twitter-square fa-3x" href="#"></a></li>
+                <li><a class="fa fa-facebook-official fa-3x" href="#"></a></li>
+                <li><a class="fa fa-google-plus-square fa-3x" href="#"></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
 </body>
 </html>
